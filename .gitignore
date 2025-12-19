@@ -1,0 +1,63 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# ================================
+# Hugging Face / ML
+# ================================
+.cache/
+huggingface/
+**/.cache/**
+
+# Training outputs (optional)
+checkpoints/
+runs/
+logs/
+
+# ================================
+# Data
+# ================================
+
+*.json
+*.parquet
+
+# ================================
+# Models
+# ================================
+# If model_dir is large and reproducible, you may ignore it.
+# Comment this line if you want to version the trained model.
+model_dir/
+
+# ================================
+# OS / Editor
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ================================
+# Docker
+# ================================
+# Optional: keep Docker clean locally
+docker-compose.override.yml
+
+# ================================
+# Build artifacts
+# ================================
+dist/
+build/
+*.egg-info/
+
+# ================================
+# Logs
+# ================================
+*.log

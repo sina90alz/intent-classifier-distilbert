@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  intent-api:
+    build: .
+    container_name: intent-classifier
+    ports:
+      - "8000:8000"
