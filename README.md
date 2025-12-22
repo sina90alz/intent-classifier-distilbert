@@ -48,19 +48,37 @@ Key characteristics:
 ## Project Structure
 
 ```
-Intent-Classifier-Distilbert/
-├── app/
-│   ├── main.py
-│   ├── schemas.py
-│   └── service.py
-├── src/
-│   ├── train.py
-│   └── inference.py
-├── model_dir/
+
+intent-classifier-distilbert/
+├── README.md
 ├── requirements.txt
 ├── Dockerfile
 ├── docker-compose.yml
-└── .dockerignore
+│
+├── data/
+│   ├── raw_snips/                    
+│   │   └── snips/ 
+│   │
+│   └── processed/              # ✅ canonical training data
+│       ├── train.csv
+│       ├── valid.csv
+│
+├── scripts/
+│   └── prepare_data.py         # SNIPS JSON → CSV (data engineering step)
+│
+├── src/
+│   ├── train.py                # training / fine-tuning
+│   ├── inference.py            # inference logic
+│   ├── dataset.py              # CSV dataset loader
+│   └── utils.py                # metrics, helpers
+│
+├── app/
+│   ├── main.py                 # FastAPI entrypoint
+│   └── schemas.py              # request / response schemas
+│   └── service.py
+│
+└── model_dir/                  # generated after training
+
 ```
 
 ---

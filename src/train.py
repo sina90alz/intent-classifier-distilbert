@@ -2,9 +2,7 @@
 Train an intent classification model using DistilBERT.
 
 Responsibilities of this file:
-- Load and parse SNIPS JSON data
 - Build label2id / id2label mappings
-- Split data into train / validation
 - Tokenize text
 - Train the model with Hugging Face Trainer
 - Save the trained model
@@ -107,7 +105,6 @@ if __name__ == "__main__":
     parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--batch_size", type=int, default=16)
     parser.add_argument("--max_length", type=int, default=64)
-    parser.add_argument("--validation_ratio", type=float, default=0.1)
 
     args = parser.parse_args()
     main(args)
