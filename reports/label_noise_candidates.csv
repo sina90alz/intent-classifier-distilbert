@@ -1,0 +1,54 @@
+reason,id,source,label_true,pred_label,confidence,margin_top2,text_len_tokens,text
+high_conf_wrong,679,valid,SearchScreeningEvent,SearchCreativeWork,0.994229,0.9926972882822156,16,Can you check the timings for Super Sweet 16: The Movie?
+high_conf_wrong,387,valid,PlayMusic,SearchCreativeWork,0.933675,0.8820669129490852,8,Please open Zvooq
+high_conf_wrong,694,valid,SearchScreeningEvent,GetWeather,0.554595,0.14021238684654236,11,what are the times for The Gingerbread Man
+low_margin_ambiguous,694,valid,SearchScreeningEvent,GetWeather,0.554595,0.14021238684654236,11,what are the times for The Gingerbread Man
+low_margin_ambiguous,299,valid,GetWeather,GetWeather,0.663745,0.38327011466026306,6,Where is Belgium located
+low_margin_ambiguous,588,valid,SearchCreativeWork,SearchCreativeWork,0.857835,0.7594655454158783,11,I'm looking for Welcome to the Canteen
+low_margin_ambiguous,387,valid,PlayMusic,SearchCreativeWork,0.933675,0.8820669129490852,8,Please open Zvooq
+low_margin_ambiguous,365,valid,PlayMusic,PlayMusic,0.956605,0.920966524630785,14,Please tune into Chieko Ochi's good music
+low_margin_ambiguous,195,valid,BookRestaurant,BookRestaurant,0.963874,0.9373380951583385,9,I want to eat in Ramona
+low_margin_ambiguous,474,valid,RateBook,RateBook,0.96922,0.956443234346807,9,Give one start to the current book
+low_margin_ambiguous,567,valid,SearchCreativeWork,SearchCreativeWork,0.973094,0.9631348047405481,13,Am looking for a book with the title Free to Play
+low_margin_ambiguous,200,valid,BookRestaurant,BookRestaurant,0.980694,0.9669764088466763,13,need a table somewhere in Quarryville 14 hours from now
+low_margin_ambiguous,348,valid,PlayMusic,PlayMusic,0.983361,0.9771345085464418,11,Live In L.aJoseph Meyer please
+low_margin_ambiguous,636,valid,SearchScreeningEvent,SearchScreeningEvent,0.988866,0.9816508311778307,8,Can I get the movie times
+low_margin_ambiguous,55,valid,AddToPlaylist,AddToPlaylist,0.986255,0.9831036762334406,14,For my fantastic workout can you add sara bareilles?
+low_margin_ambiguous,16,valid,AddToPlaylist,AddToPlaylist,0.987859,0.9841274069622159,16,"Onto jerry's Classical Moments in Movies, please add the album."
+low_margin_ambiguous,123,valid,BookRestaurant,BookRestaurant,0.990591,0.9862616755999625,17,I want to eat a delicatessen in thirteen hours that serves eastern european food
+low_margin_ambiguous,173,valid,BookRestaurant,BookRestaurant,0.991198,0.9863163405098021,15,phyllis ward and veronica need a table at a restaurant in 152 days
+low_margin_ambiguous,147,valid,BookRestaurant,BookRestaurant,0.99073,0.9869625486899167,15,I want to eat by five pm in NE for a six people
+low_margin_ambiguous,611,valid,SearchScreeningEvent,SearchScreeningEvent,0.991765,0.9871695204637945,16,I need to find the movie theatre showing The Crooked Web closest to me
+low_margin_ambiguous,120,valid,BookRestaurant,BookRestaurant,0.990474,0.9872958846390247,14,I need a table for 4; please confirm the reservation.
+low_margin_ambiguous,167,valid,BookRestaurant,BookRestaurant,0.991724,0.9873626646585763,21,I would like to book a restaurant for souvlaki cuisine in the state of NE
+low_margin_ambiguous,301,valid,PlayMusic,PlayMusic,0.992047,0.9878589292056859,13,can you put on Like A Hurricane by Paul Landers
+low_margin_ambiguous,178,valid,BookRestaurant,BookRestaurant,0.991267,0.9879553678911179,17,Lets eat near Oakfield 17 seconds from now at Ted Peters Famous Smoked Fish
+low_margin_ambiguous,574,valid,SearchCreativeWork,SearchCreativeWork,0.991797,0.9885791151318699,5,Find Four Songs
+low_margin_ambiguous,176,valid,BookRestaurant,BookRestaurant,0.992417,0.988850090187043,19,I want to book a food truck for seven people in the Republic of the Congo.
+low_margin_ambiguous,152,valid,BookRestaurant,BookRestaurant,0.991899,0.9889865107834339,19,"Can you book me a table at Windows on the World in Cokeville , MI?"
+low_margin_ambiguous,14,valid,AddToPlaylist,AddToPlaylist,0.992443,0.9892188129015267,19,Put Jean Philippe Goncalves onto my running to rock 170 to 190 bpm.
+low_margin_ambiguous,166,valid,BookRestaurant,BookRestaurant,0.99289,0.9893051006365567,17,I want to book a table in a restaurant in Bouvet Island.
+low_margin_ambiguous,184,valid,BookRestaurant,BookRestaurant,0.992277,0.9896253058686852,7,Please book me a restaurant
+low_margin_ambiguous,103,valid,BookRestaurant,BookRestaurant,0.992886,0.9896865533664823,21,I would like to book a restaurant in Tanzania that is within walking distance for my mom and I
+low_margin_ambiguous,426,valid,RateBook,RateBook,0.991769,0.9897248281631619,10,Gods and Pawns should get a three
+low_margin_ambiguous,164,valid,BookRestaurant,BookRestaurant,0.992966,0.989930976415053,17,I want a table at James D. Conrey House in Urbank California
+low_margin_ambiguous,136,valid,BookRestaurant,BookRestaurant,0.993172,0.9900284078903496,12,I want to book a jewish restaurant in Gambia.
+low_margin_ambiguous,106,valid,BookRestaurant,BookRestaurant,0.993271,0.9900998177472502,16,I need a table in Sacaton at a gluten free restaurant
+low_margin_ambiguous,236,valid,GetWeather,GetWeather,0.993059,0.9901242412161082,7,When is sunrise for AR
+low_margin_ambiguous,279,valid,GetWeather,GetWeather,0.992623,0.9902193574234843,15,overcast on State Holiday in Pawling Nature Reserve  and neighboring places
+low_margin_ambiguous,505,valid,SearchCreativeWork,SearchCreativeWork,0.993239,0.9902558692265302,14,Wish to see the photograph with the name Live: Right Here
+low_margin_ambiguous,187,valid,BookRestaurant,BookRestaurant,0.992511,0.9903288951609284,15,table for 5 A.m. at Baker's Keyboard Lounge
+low_margin_ambiguous,11,valid,AddToPlaylist,AddToPlaylist,0.992808,0.9903646919410676,11,Add Recalled to Life to This Is Alejandro Fernández
+low_margin_ambiguous,330,valid,PlayMusic,PlayMusic,0.992611,0.9904250020626932,6,Turn on Last Fm
+low_margin_ambiguous,119,valid,BookRestaurant,BookRestaurant,0.993329,0.9905019744765013,13,I want to book Oregon Electric Station in North City.
+low_margin_ambiguous,144,valid,BookRestaurant,BookRestaurant,0.993396,0.9905184772796929,16,I need a table for 4 in Saint Helena at Settha Palace Hotel
+low_margin_ambiguous,84,valid,AddToPlaylist,AddToPlaylist,0.993288,0.9908143689390272,18,I need to add to my Infinite Indie Folk list the works of Rahim Shah
+low_margin_ambiguous,182,valid,BookRestaurant,BookRestaurant,0.993526,0.9909593933261931,19,Please book me a table at a pizzeria with a parking facility in Ghana.
+low_margin_ambiguous,107,valid,BookRestaurant,BookRestaurant,0.993092,0.9910576625261456,13,book sot for me and my grandfather nearby West Reading
+low_margin_ambiguous,132,valid,BookRestaurant,BookRestaurant,0.993879,0.9912018445320427,14,I want to book a restaurant in Niger for seven people.
+low_margin_ambiguous,156,valid,BookRestaurant,BookRestaurant,0.993836,0.9912249441258609,15,I need a table at Eddie's Attic in Nevada for one
+low_margin_ambiguous,663,valid,SearchScreeningEvent,SearchScreeningEvent,0.993142,0.9913664702326059,13,Will I Think I Do be playing at 7 PM?
+low_margin_ambiguous,117,valid,BookRestaurant,BookRestaurant,0.993982,0.9913938839454204,15,I want to book a restaurant for five people in Sri Lanka.
+low_margin_ambiguous,131,valid,BookRestaurant,BookRestaurant,0.993871,0.9914176624733955,11,table for Breadline Cafe in Minnesota next friday
+low_margin_ambiguous,191,valid,BookRestaurant,BookRestaurant,0.994024,0.9915049120318145,28,I want to book a sundanese gastropub nearby in Texas for 3 people on 5/20/2025.
+low_margin_ambiguous,158,valid,BookRestaurant,BookRestaurant,0.993997,0.9915160092059523,29,"I want to book a top-rated restaurant close by in LA for me, rebecca and loraine on 2/6/2020."

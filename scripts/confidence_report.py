@@ -19,7 +19,7 @@ def main():
 
     df = pd.read_csv(preds_path)
 
-    df["is_correct"] = df["is_correct"].astype(bool)
+    df["is_correct"] = df["is_correct"].astype(str).str.lower().map({"true": True, "false": False})
     df["confidence"] = pd.to_numeric(df["confidence"], errors="coerce")
 
     # Histogram
